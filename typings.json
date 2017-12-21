@@ -1,0 +1,9 @@
+{
+  "name": "repeka-admin-panel",
+  "dependencies": {
+    "aurelia-polyfills": "github:aurelia/polyfills#1.2.2"
+  },
+  "globalDevDependencies": {
+    "jasmine": "registry:dt/jasmine#2.5.0+20161119044246"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "install": "npm prune && (typings prune && typings install && jspm clean && jspm install)"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.8.0",
+    "jspm": "^0.16.53",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-systemjs": "^0.16.0",
+    "systemjs": "^0.19.47",
+    "typescript": "~2.3.4",
+    "typings": "^2.1.1"
+  },
+  "jspm": {
+    "dependencies": {
+      "aurelia-polyfills": "npm:aurelia-polyfills@^1.2.2"
+    },
+    "devDependencies": {}
+  }
+}
